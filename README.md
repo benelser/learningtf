@@ -20,7 +20,7 @@ gcloud auth application-default login
 [SA Manage](https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform)
 [How-To ](https://gmusumeci.medium.com/how-to-create-a-service-account-for-terraform-in-gcp-google-cloud-platform-f75a0cf918d1)
 
-# How to Get Use 
+# Learning TF the Hard way
 I find the best way to learn any new language is just banging around the cli. This repo is a capture of that exercise. I will also use it as a reference for language specifics. 
 If you want to see the output of any code in [main.tf](./hello-gcp/main.tf) just comment out whatever you don't want. Then run: 
 ```powershell
