@@ -35,7 +35,8 @@ terraform init # Initialize terraform and pull down provider
 gcloud auth application-default login
 ```
 
-# Use SA 
+# Use SA
+[SA By ENV VAR](https://cloud.google.com/docs/authentication/production#passing_variable)
 [SA Getting Started](https://cloud.google.com/community/tutorials/getting-started-on-gcp-with-terraform)
 [SA Manage](https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform)
 [How-To ](https://gmusumeci.medium.com/how-to-create-a-service-account-for-terraform-in-gcp-google-cloud-platform-f75a0cf918d1)
