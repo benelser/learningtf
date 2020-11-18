@@ -5,9 +5,25 @@ If you want to see the output of any code in [main.tf](./hello-gcp/main.tf) just
 terraform plan
 ```
 
+## Tools 
+- [Terraform](https://www.terraform.io/downloads.html)
+- [gcloud sdk](https://cloud.google.com/sdk/docs/install)
+
+## Useful gcloud commands
+```bash
+gcloud organizations list # List orgs to get id
+gcloud alpha resource-manager folders list --folder=123456789 # List all folders under specific folder id
+gcloud alpha billing accounts list # Get billing accounts
+gcloud config get-value project # get current project
+gcloud config set project elser-test # set/change current project
+```
+
 ## Set up env
-With TF installed
 ```powershell
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+brew upgrade hashicorp/tap/terraform
+terraform --help # verify install
 brew cask install google-cloud-sdk
 mkdir learningtf
 terraform init # Initialize terraform and pull down provider
