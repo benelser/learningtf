@@ -30,13 +30,13 @@ terraform init # Initialize terraform and pull down provider
 ```
 
 # Authenticate with gcloud
-[Auth Using User](https://cloud.google.com/sdk/gcloud/reference/auth/application-default)
+- [Auth Using User](https://cloud.google.com/sdk/gcloud/reference/auth/application-default)
 ```powershell
 gcloud auth application-default login
 ```
 
 # Use SA
-[SA By ENV VAR](https://cloud.google.com/docs/authentication/production#passing_variable)
-[SA Getting Started](https://cloud.google.com/community/tutorials/getting-started-on-gcp-with-terraform)
-[SA Manage](https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform)
-[How-To ](https://gmusumeci.medium.com/how-to-create-a-service-account-for-terraform-in-gcp-google-cloud-platform-f75a0cf918d1)
+- [SA By ENV VAR](https://cloud.google.com/docs/authentication/production#passing_variable)
+- [SA Getting Started](https://cloud.google.com/community/tutorials/getting-started-on-gcp-with-terraform)
+- [SA Manage](https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform)
+- [How-To ](https://gmusumeci.medium.com/how-to-create-a-service-account-for-terraform-in-gcp-google-cloud-platform-f75a0cf918d1)
